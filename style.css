@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(bg3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+#main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(5, 5, 5, 5, 0.15);
+	padding: 50px;
+	width: 400px;
+	box-shadow: 0 0 15px 10px black;
+}
+h1 {
+	color: #212F3C;
+}
+h2 {
+	background-color: transparent;
+	color: #212F3C;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	margin: -10px -40px;
+	padding: 15px;
+}
+hr {
+	border: 0;
+	border-bottom: 1px solid #A04000;
+	margin: 10px -40px;
+	margin-bottom: 30px;
+}
+#login {
+	width: 300px;
+	float: left;
+	border-radius: 10px;
+	font-family: raleway;
+	border: 1px solid #A04000;
+	padding: 10px 40px 25px;
+}
+input[type=text], input[type=password] {
+	background-color: transparent;
+	width: 99.5%;
+	padding: 10px;
+	margin-top: 8px;
+	border: 1px solid #A04000;
+	padding-left: 5px;
+	font-size: 16px;
+	font-family: raleway;
+}
+input[type=submit] {
+	width: 105%;
+	background-color: #BA4A00;
+	color: #EDBB99;
+	border: 1px solid #DC7633;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+profile {
+	padding: 50px;
+	border: 1px dashed #A04000;
+	font-size: 50px;
+	background-color: #DCE6F7;
+}
+logout {
+	float: right;
+	padding: 5px;
+	border: dashed 1px #A04000;
+}
+a {
+	text-decoration: none;
+	color: #A04000;
+}
+i {
+	color: #212F3C;
+}
